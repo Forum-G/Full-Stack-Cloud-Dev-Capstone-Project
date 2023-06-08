@@ -9,7 +9,7 @@ This project was developed as the final Capstone Project for the IBM Full Stack 
 The goal of this project is to build a website that allows users to select one of *Best Car*'s dealerships (a fictional company) in the US and view reviews of the dealership's cars submitted by other users. Users can also submit their own reviews. The website is built using the Python-Django full stack web development framework and is deployed with Red Hat OpenShift/Kubernetes on the IBM Cloud.
 
 ## Architecture
-
+![capstone-project-model](https://github.com/CodeForumizer/Full-Stack-Cloud-Dev-Capstone-Project/assets/84411852/da2173ab-8476-426e-8f4c-b21aa70c6493)
 
 The dealership and review data are stored in an IBM Cloudant database, while data about users and cars is stored in a simple SQLite database. To access data from IBM Cloudant, three IBM Cloud Functions were created, which are accessible through an API. Each review is analyzed by IBM Watson to determine its general sentiment (negative, neutral, positive).
 
